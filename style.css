@@ -47,6 +47,11 @@
   font-size: 12px;
   font-weight: 900;
 }
+.selection a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
 .plan {
   display: flex;
   align-items: center;
@@ -79,9 +84,17 @@ button {
   font-size: 13px;
   font-weight: 900;
 }
+button:hover {
+  cursor: pointer;
+  background-color: hsl(224, 23%, 55%);
+}
 .cancel {
   font-size: 13px;
   font-weight: 900;
+}
+.cancel:hover {
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
 }
 /* .attribution {
   font-size: 11px;
